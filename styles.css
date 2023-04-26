@@ -2,6 +2,7 @@
 body {
     background-color: black;
     width: 100%;
+    margin:0;
 }
 
 .post {
@@ -11,8 +12,8 @@ body {
 }
 
 .post-header {
-    height: 50px;
-    padding: 5px;
+    height: 50px;    
+    padding: 5px 5px 0px 5px;
 }
 
 .header-logo {
@@ -56,7 +57,6 @@ body {
 	width: 400px;
 	height: 300px;
     object-fit: cover;
-    border: 0.5px lightgray;
 }
 
 .post-text-wrapper{
@@ -71,31 +71,22 @@ body {
 #comment,
 #share,
 #bookmark {
+    display: flex;
     padding: 3px;
-    margin: 0px
-
+    margin: 0px;
 }
 
 #share{
     width: 70%;
 }
 
-#bookmark {
-    float: right;
-
-}
-
-.post-likes span{
-    font-weight: bold;
-}
-
 .post-likes,
 .post-text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
-
 
 .post-text {
     padding: 0px 0px 10px 0px;  
+
 }
